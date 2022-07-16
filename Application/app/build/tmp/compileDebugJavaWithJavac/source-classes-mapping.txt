@@ -1,0 +1,20 @@
+com/rodrigolagartera/predictorapp/BuildConfig.java
+ com.rodrigolagartera.predictorapp.BuildConfig
+com/rodrigolagartera/predictorapp/ClinicalDetailsActivity.java
+ com.rodrigolagartera.predictorapp.ClinicalDetailsActivity
+com/rodrigolagartera/predictorapp/GlobalData.java
+ com.rodrigolagartera.predictorapp.GlobalData
+com/rodrigolagartera/predictorapp/MainActivity.java
+ com.rodrigolagartera.predictorapp.MainActivity
+com/rodrigolagartera/predictorapp/PhotoDetailsActivity.java
+ com.rodrigolagartera.predictorapp.PhotoDetailsActivity
+com/rodrigolagartera/predictorapp/MenuActivity.java
+ com.rodrigolagartera.predictorapp.MenuActivity
+ com.rodrigolagartera.predictorapp.MenuActivity$1
+ com.rodrigolagartera.predictorapp.MenuActivity$1$1
+ com.rodrigolagartera.predictorapp.MenuActivity$1$2
+ com.rodrigolagartera.predictorapp.MenuActivity$2
+ com.rodrigolagartera.predictorapp.MenuActivity$3
+ com.rodrigolagartera.predictorapp.MenuActivity$4
+ com.rodrigolagartera.predictorapp.MenuActivity$4$1
+ com.rodrigolagartera.predictorapp.MenuActivity$4$2
