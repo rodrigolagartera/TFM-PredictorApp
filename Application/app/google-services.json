@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928015654207",
+    "project_id": "predictorapp-2022",
+    "storage_bucket": "predictorapp-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928015654207:android:4e8d3a1c2ed3f96c87878a",
+        "android_client_info": {
+          "package_name": "com.rodrigolagartera.predictorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928015654207-t9es7plt640noqqnt006nvsov4ui77gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr-QASgxTK49tXbR9Imojp9dttLwnfKSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928015654207-t9es7plt640noqqnt006nvsov4ui77gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
