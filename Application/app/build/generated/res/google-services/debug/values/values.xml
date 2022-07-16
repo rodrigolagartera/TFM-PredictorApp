@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">928015654207-t9es7plt640noqqnt006nvsov4ui77gv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">928015654207</string>
+    <string name="google_api_key" translatable="false">AIzaSyAr-QASgxTK49tXbR9Imojp9dttLwnfKSY</string>
+    <string name="google_app_id" translatable="false">1:928015654207:android:4e8d3a1c2ed3f96c87878a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAr-QASgxTK49tXbR9Imojp9dttLwnfKSY</string>
+    <string name="google_storage_bucket" translatable="false">predictorapp-2022.appspot.com</string>
+    <string name="project_id" translatable="false">predictorapp-2022</string>
+</resources>
