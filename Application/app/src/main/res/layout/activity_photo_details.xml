@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="328dp"
+                android:layout_height="404dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/previo" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:onClick="tomarFoto"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/camara" />
+
+            <TextView
+                android:id="@+id/detalles_imagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/detalles_imagen"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/localization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/localization"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/shape"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/colour"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/size"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/unique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/unique"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/multiple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/multiple"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/edges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edges"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/indurated_edges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/indurated_edges"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/exophytic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/exophytic"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/ulcerated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ulcerated"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/mixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mixed"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/consistency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/consistency"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/evolution_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/evolution_time"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/pain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pain"
+                android:layout_marginBottom="10dp" />
+
+            <Spinner
+                android:id="@+id/cervical_lymph_nodes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cervical_lymph_nodes"
+                android:layout_marginBottom="10dp" />
+
+            <CheckBox
+                android:id="@+id/insertar_otra_foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insertar_otra_foto"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/boton_registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonRegistrar"
+                android:text="@string/boton_registrar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

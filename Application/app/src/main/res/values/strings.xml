@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="pantalla_principal">Pantalla Principal</string>
+    <string name="detalles_clinicos">Detalles clínicos</string>
+    <string name="detalles_imagen">Detalles de la imagen</string>
+    <string name="patient_code">Patient Code</string>
+    <string name="email">Email del doctor</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="tobacco">Tobacco</string>
+    <string name="number_cigarettes">Number cigarettes/day</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="number_alcohol">Number of doses of alcohol/day</string>
+    <string name="drugs">Drugs</string>
+    <string name="comorbidities">Comorbidities</string>
+    <string name="localization">Localization</string>
+    <string name="shape">Shape</string>
+    <string name="colour">Colour</string>
+    <string name="size">Size (mm2)</string>
+    <string name="unique">Unique</string>
+    <string name="multiple">Multiple</string>
+    <string name="edges">Edges</string>
+    <string name="indurated_edges">Indurated edges</string>
+    <string name="exophytic">Exophytic</string>
+    <string name="ulcerated">Ulcerated</string>
+    <string name="mixed">Mixed</string>
+    <string name="consistency">Consistency</string>
+    <string name="evolution_time">Evolution time</string>
+    <string name="pain">Pain</string>
+    <string name="cervical_lymph_nodes">Cervical Lymph Nodes</string>
+    <string name="insertar_otra_foto">Insertar otra foto</string>
+    <string name="boton_registrar">Registrar datos</string>
+    <string name="seleccionar_opcion">Seleccione una opción a realizar</string>
+    <string name="boton_cancer">Predicción de cáncer oral</string>
+    <string name="boton_muestra_clusterizacion">Guardar datos en base de datos</string>
+    <string name="boton_otros_servicios">Otros servicios (Próximamente...)</string>
+    <string name="boton_pagina_principal">Volver a la página principal</string>
+    <string name="condiciones_legales">Los siguientes datos contienen información sensible.\n\nEstos datos van a ser guardados en una Base de Datos protegida de acuerdo a las especificaciones
+        recogidas por la RGPD (Reglamento General de Protección de Datos) y la LOPDGDD
+        (Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales).\n\nAl aceptar estas condiciones, se compromete a ser responsable legal de la autoría e inserción de estos datos.
+    </string>
+
+</resources>
